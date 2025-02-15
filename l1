@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int swap(int a,int b){
+    a=a+b; //a=1 b=2 
+    b=a-b;
+    a=a-b;
+    cout<<"after swap the value of a is"<< a <<endl;
+    cout <<"after swap value of b is "<< b <<endl;
+    return 0;
+}
+int main(){
+    int a,b;
+    cout<<"enter a"<<endl;
+    cin>>a;
+    cout<<"enter b"<<endl;
+    cin>>b;
+    swap(a,b);
+    
+    return 0;
+}
